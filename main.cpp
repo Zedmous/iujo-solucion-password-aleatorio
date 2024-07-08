@@ -85,19 +85,33 @@ int leerEntero(string mensaje){
 }
 
 
+/*
+Funcion que retorna un dato de tipo float, 
+Tiene 2 parametros:
+	Parametro 1: es tipo float de variable llamada a.
+	Parametro 2: es tipo float de variable llamada b.
+su funcion es calcular la suma de dos numeros.
+*/
+float calcularSuma(float a,float b){
+	return a+b;
+}
+
 int main(int argc, char** argv) {
 
 	imprimirMensaje("----------INICIANDO PROGRAMA----------");
 	imprimirMensaje("--------------------------------------");
-	
+	float numero1=0.0;
+	float numero2=0.0;
 	imprimirMensaje("----------PASO 1----------");
 	imprimirMensaje("----------LECTURA DE DATOS----------");
-
+	numero1=leerEntero("Ingrese el numero 1: ")
+	numero2=leerEntero("Ingrese el numero 2: ")
 	imprimirMensaje("----------PASO 2----------");
 	imprimirMensaje("----------PROCESAR DATOS----------");
-
+	float suma=calcularSuma(numero1,numero2)
 	imprimirMensaje("----------PASO 3----------");
 	imprimirMensaje("----------SALIDAS DE DATOS----------");
+	imprimirFloat("La suma es: ",suma)
 
 
 
