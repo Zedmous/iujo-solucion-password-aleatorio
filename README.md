@@ -1,7 +1,5 @@
-## Primera Clase
+## Cogigo Base
 ### Primer Semestre 
 
-### objetivos de la práctica
-1. Conociendo los comandos básicos (push/pull/status/add)
-2. Realiza tu primer commit
-3. ¡Clona el repo de gitHub y contribuye!
+### objetivos de este proyecto
+La idea es que tengan un codigo base en c++ para entender su estructura y funcionamiento
