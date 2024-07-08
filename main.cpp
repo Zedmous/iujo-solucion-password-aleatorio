@@ -104,8 +104,8 @@ int main(int argc, char** argv) {
 	float numero2=0.0;
 	imprimirMensaje("----------PASO 1----------");
 	imprimirMensaje("----------LECTURA DE DATOS----------");
-	numero1=leerEntero("Ingrese el numero 1: ")
-	numero2=leerEntero("Ingrese el numero 2: ")
+	numero1=leerFloat("Ingrese el numero 1: ")
+	numero2=leerFloat("Ingrese el numero 2: ")
 	imprimirMensaje("----------PASO 2----------");
 	imprimirMensaje("----------PROCESAR DATOS----------");
 	float suma=calcularSuma(numero1,numero2)
