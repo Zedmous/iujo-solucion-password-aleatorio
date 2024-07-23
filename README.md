@@ -1,5 +1,5 @@
 ## Cogigo Base
-### Primer Semestre 
+### Ejercicio Password Aleatorio
 
-### objetivos de este proyecto
-La idea es que tengan un codigo base en c++ para entender su estructura y funcionamiento
+### Enunciado
+Realizar un programa que genere una clave aleatoria donde los caracteres se elegiran de un arreglo definido internamente en el programa. La cantidad de caracteres del password se solicita por el teclado.
