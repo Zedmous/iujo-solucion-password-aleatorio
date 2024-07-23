@@ -69,6 +69,14 @@ char obtenerLetraoNumero(){
 	int longitud = obtenerLongitudArrayChar(caracteres);
 	int pos= obtenerNumRandom(longitud);
 	cout << "Posicion: " << pos<<endl;
+	/*
+	el ciclo que viene, se uso es para evitar un bug que el programa generaba ya que siempre
+	devolvia la misma posicion es porque el programa se ejecutaba tan rapido que la funcion
+	rand devolvia la misma posicion por la instancia de tiempo que se genero. 
+	Son cosas que a veces salen programar para evitar un error pero es importante que analicen
+	este tipo de requerimiento, porque si ven el ciclo esta que mientra me devuelva lo mismo
+	entonces buscame un elemento que sea diferente
+	*/
 	char act='*';
 	char ant=caracteres[pos];
 	do{
